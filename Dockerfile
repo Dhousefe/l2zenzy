@@ -30,4 +30,4 @@ EXPOSE 2106
 
 # --- Comando Final ---
 # Define o nosso script como o comando principal do container
-ENTRYPOINT ["./l2zenzy/entrypoint.sh"]
+ENTRYPOINT ["./entrypoint.sh"]
