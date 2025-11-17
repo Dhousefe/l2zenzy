@@ -1,33 +1,37 @@
 # --- Imagem Base ---
-# Usamos a imagem Alpine leve com Java 21 (JRE)
-FROM eclipse-temurin:21-jre-alpine
+    FROM eclipse-temurin:21-jre-alpine
 
-# --- Instala Dependências ---
-# Adiciona o 'uuidgen' que seu script de start precisa
-RUN apk add --no-cache util-linux
-
-# --- Ambiente ---
-WORKDIR /l2zenzy
-
-# Cria o diretório de log que seu script espera
-RUN mkdir log
-
-# --- Copia os Arquivos do Projeto ---
-# Copia todo o seu projeto (pastas 'login', 'game', 'libs', etc) para o container
-COPY . .
-
-# --- Script de Entrypoint ---
-# Copia o nosso script customizado de inicialização
-COPY entrypoint.sh .
-
-# Dá permissão de execução ao script
-RUN chmod +x entrypoint.sh
-
-# --- Portas ---
-# Expõe as portas do Login e Game Server
-EXPOSE 7777
-EXPOSE 2106
-
-# --- Comando Final ---
-# Define o nosso script como o comando principal do container
-ENTRYPOINT ["./l2zenzy/entrypoint.sh"]
+    # --- Instala Dependências ---
+    # Combina todas as instalações em um único comando RUN
+    # Adiciona 'util-linux' (para uuidgen), 'bash' (para o script) e 'dos2unix' (para corrigir line endings)
+    RUN apk add --no-cache util-linux bash dos2unix
+    
+    # --- Ambiente ---
+    WORKDIR /l2zenzy
+    
+    # Cria o diretório de log que seu script espera
+    RUN mkdir log
+    
+    # --- Copia os Arquivos do Projeto ---
+    # Copia tudo (incluindo o entrypoint.sh)
+    COPY . .
+    
+    # --- Prepara o Script de Entrypoint ---
+    # Aplica o dos2unix para remover line endings do Windows
+    # E dá permissão de execução
+    # Fazemos isso *depois* de copiar para garantir que o script esteja correto
+    RUN dos2unix entrypoint.sh && chmod +x entrypoint.sh
+    
+    # --- Portas ---
+    EXPOSE 7777
+    EXPOSE 2106
+    
+    # --- Comando Final ---
+    # Se o seu script #!/bin/bash estiver correto, isto funciona.
+    ENTRYPOINT ["./entrypoint.sh"]
+    
+    # --- ALTERNATIVA (Mais Explícita) ---
+    # Você também pode forçar o uso do bash que instalamos,
+    # o que ignora qualquer problema no #! (shebang)
+    # DESCOMENTE A LINHA ABAIXO (e comente a anterior) se tiver problemas:
+    # ENTRYPOINT ["/bin/bash", "./entrypoint.sh"]
