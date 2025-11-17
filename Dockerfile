@@ -4,9 +4,12 @@ FROM eclipse-temurin:21-jre-alpine
 
 # --- Instala Dependências ---
 # Adiciona o 'uuidgen' que seu script de start precisa
-RUN apk add --no-cache util-linux
+# Instala 'dos2unix' e 'bash' para garantir que o entrypoint.sh funcione
+# Seu script usa 'bash', que não é padrão no Alpine, é importante instalá-lo!
+RUN apk add --no-cache util-linux bash dos2unix
 
 # --- Ambiente ---
+# Define o diretório de trabalho principal
 WORKDIR /l2zenzy
 
 # Cria o diretório de log que seu script espera
@@ -17,10 +20,13 @@ RUN mkdir log
 COPY . .
 
 # --- Script de Entrypoint ---
-# Copia o nosso script customizado de inicialização
-COPY entrypoint.sh .
+# O arquivo entrypoint.sh já foi copiado acima pelo 'COPY . .'
+# Agora aplicamos as correções de permissão e formato:
 
-# Dá permissão de execução ao script
+# 1. Converte as quebras de linha (CRLF -> LF) para evitar o erro "no such file"
+RUN dos2unix entrypoint.sh
+
+# 2. Dá permissão de execução ao script
 RUN chmod +x entrypoint.sh
 
 # --- Portas ---
@@ -30,4 +36,5 @@ EXPOSE 2106
 
 # --- Comando Final ---
 # Define o nosso script como o comando principal do container
+# Usamos o caminho relativo, pois estamos dentro do WORKDIR /l2zenzy
 ENTRYPOINT ["./entrypoint.sh"]
