@@ -7,7 +7,7 @@ FROM eclipse-temurin:21-jre-alpine
 RUN apk add --no-cache util-linux
 
 # --- Ambiente ---
-WORKDIR /app
+WORKDIR /l2zenzy
 
 # Cria o diretório de log que seu script espera
 RUN mkdir log
@@ -30,4 +30,4 @@ EXPOSE 2106
 
 # --- Comando Final ---
 # Define o nosso script como o comando principal do container
-ENTRYPOINT ["./entrypoint.sh"]
+ENTRYPOINT ["./l2zenzy/entrypoint.sh"]
