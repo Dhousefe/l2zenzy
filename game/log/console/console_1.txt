@@ -1,0 +1,78 @@
+[25-10-2025 23:17:06]	INFO	--------------------------------------------------=[ Config ]
+[25-10-2025 23:17:07]	INFO	Loading gameserver configuration files.
+[25-10-2025 23:17:07]	INFO	Loaded 1155 Filter Words.
+[25-10-2025 23:17:07]	INFO	UpgradeBossJewelsEnchant: true
+[25-10-2025 23:17:07]	INFO	Loaded JewelUpgrade: itemId=6656, enchantLevel=10, newItemId=15000
+[25-10-2025 23:17:07]	INFO	Loaded JewelUpgrade: itemId=15000, enchantLevel=15, newItemId=15001
+[25-10-2025 23:17:07]	INFO	Loaded JewelUpgrade: itemId=6657, enchantLevel=10, newItemId=15002
+[25-10-2025 23:17:07]	INFO	Loaded JewelUpgrade: itemId=15002, enchantLevel=15, newItemId=15003
+[25-10-2025 23:17:07]	INFO	Loaded JewelUpgrade: itemId=6658, enchantLevel=10, newItemId=15004
+[25-10-2025 23:17:07]	INFO	Loaded JewelUpgrade: itemId=15004, enchantLevel=15, newItemId=15005
+[25-10-2025 23:17:07]	INFO	Loaded JewelUpgrade: itemId=6659, enchantLevel=10, newItemId=15006
+[25-10-2025 23:17:07]	INFO	Loaded JewelUpgrade: itemId=15006, enchantLevel=15, newItemId=15007
+[25-10-2025 23:17:07]	INFO	Loaded JewelUpgrade: itemId=6660, enchantLevel=10, newItemId=15008
+[25-10-2025 23:17:07]	INFO	Loaded JewelUpgrade: itemId=15008, enchantLevel=15, newItemId=15009
+[25-10-2025 23:17:07]	INFO	Loaded JewelUpgrade: itemId=6661, enchantLevel=10, newItemId=15010
+[25-10-2025 23:17:07]	INFO	Loaded JewelUpgrade: itemId=15010, enchantLevel=15, newItemId=15011
+[25-10-2025 23:17:07]	INFO	Loaded JewelUpgrade: itemId=6662, enchantLevel=10, newItemId=15012
+[25-10-2025 23:17:07]	INFO	Loaded JewelUpgrade: itemId=15012, enchantLevel=15, newItemId=15013
+[25-10-2025 23:17:07]	INFO	Loaded JewelUpgrade: itemId=8191, enchantLevel=10, newItemId=15014
+[25-10-2025 23:17:07]	INFO	Loaded JewelUpgrade: itemId=15014, enchantLevel=15, newItemId=15015
+[25-10-2025 23:17:07]	INFO	Loaded 16 boss jewel upgrades.
+[25-10-2025 23:17:07]	INFO	Loaded 16 upgradeable boss jewels.
+[25-10-2025 23:17:07]	INFO	-------------------------------------------------=[ Poolers ]
+[25-10-2025 23:17:07]	INFO	World grid (176 by 256) is now set up.
+[25-10-2025 23:17:08]	INFO	Initializing ConnectionPool.
+[25-10-2025 23:17:08]	INFO	ThreadPool inicializado com sucesso.
+[25-10-2025 23:17:08]	INFO	  - Scheduled Pools: 16
+[25-10-2025 23:17:08]	INFO	  - Instant Pools: 8
+[25-10-2025 23:17:08]	INFO	  - Pathfinding Threads: 2 (CPU-bound optimization)
+[25-10-2025 23:17:08]	INFO	-----------------------------------------------=[ IdFactory ]
+[25-10-2025 23:17:08]	INFO	Updated characters online status.
+[25-10-2025 23:17:08]	INFO	Cleaned 0 elements from database.
+[25-10-2025 23:17:08]	INFO	Cleaned 0 expired timestamps from database.
+[25-10-2025 23:17:08]	INFO	Initializing 205824 objectIds pool, with 408 used ids.
+[25-10-2025 23:17:08]	INFO	---------------------------------------------------=[ Cache ]
+[25-10-2025 23:17:10]	INFO	Loaded 0 crests.
+[25-10-2025 23:17:10]	INFO	---------------------------------------------------=[ World ]
+[25-10-2025 23:17:10]	INFO	Loaded 1 announcements.
+[25-10-2025 23:17:10]	INFO	Loaded 2 server variables.
+[25-10-2025 23:17:10]	INFO	--------------------------------------------------=[ Skills ]
+[25-10-2025 23:17:18]	INFO	SkillTable: Loaded 29743 skills.
+[25-10-2025 23:17:19]	INFO	Loaded 117 fishing skills.
+[25-10-2025 23:17:19]	INFO	Loaded 64 clan skills.
+[25-10-2025 23:17:19]	INFO	Loaded 14550 enchant skills.
+[25-10-2025 23:17:19]	INFO	---------------------------------------------------=[ Items ]
+[25-10-2025 23:17:22]	INFO	Loaded items.
+[25-10-2025 23:17:22]	INFO	Loaded 13 summon items.
+[25-10-2025 23:17:22]	INFO	Loaded 180 hennas.
+[25-10-2025 23:17:22]	INFO	Loaded 678 buyLists.
+[25-10-2025 23:17:25]	INFO	Loaded 115 multisell.
+[25-10-2025 23:17:25]	INFO	Loaded 871 recipes.
+[25-10-2025 23:17:25]	INFO	Loaded 51 armor sets.
+[25-10-2025 23:17:25]	INFO	Loaded 278 fish.
+[25-10-2025 23:17:25]	INFO	Loaded 334 spellbooks.
+[25-10-2025 23:17:25]	INFO	Loaded 39 Soul Crystals data and 124 NPCs data.
+[25-10-2025 23:17:25]	INFO	Loaded 4 sets of augmentation stats.
+[25-10-2025 23:17:25]	INFO	Loaded 170 blue, 1070 purple and 540 red Life-Stone skills.
+[25-10-2025 23:17:25]	INFO	Loaded 2 cursed weapons.
+[25-10-2025 23:17:25]	WARNING	Skipping items list is disabled. No items will be loaded from this list.
+[25-10-2025 23:17:25]	INFO	--------------------------------------------------=[ Admins ]
+[25-10-2025 23:17:25]	INFO	Loaded 10 access levels.
+[25-10-2025 23:17:25]	INFO	Loaded 158 admin command rights.
+[25-10-2025 23:17:25]	INFO	Loaded 0 bookmarks.
+[25-10-2025 23:17:25]	INFO	Loaded 0 petitions.
+[25-10-2025 23:17:25]	INFO	----------------------------------------------=[ Characters ]
+[25-10-2025 23:17:25]	INFO	Loaded 89 player classes templates.
+[25-10-2025 23:17:26]	INFO	Loaded 8 player infos.
+[25-10-2025 23:17:26]	INFO	Loaded 81 player levels.
+[25-10-2025 23:17:26]	INFO	Loaded 3 RaidPoints entries.
+[25-10-2025 23:17:26]	INFO	Loaded 29 healSps entries.
+[25-10-2025 23:17:27]	INFO	Loaded 92 restart areas and 36 restart points.
+[25-10-2025 23:17:27]	INFO	----------------------------------------=[ Community server ]
+[25-10-2025 23:17:27]	INFO	Loaded custom community board.
+[25-10-2025 23:17:27]	INFO	---------------------------------------------------=[ Clans ]
+[25-10-2025 23:17:27]	INFO	Loaded 0 clans.
+[25-10-2025 23:17:27]	INFO	-----------------------------------=[ Geodata & Pathfinding ]
+[25-10-2025 23:17:32]	INFO	Loaded 139 L2OFF region files.
+[25-10-2025 23:17:32]	INFO	---------------------------------------------------=[ Zones ]

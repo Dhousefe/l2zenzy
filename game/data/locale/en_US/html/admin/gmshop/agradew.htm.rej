@@ -1,0 +1,63 @@
+@@ -0,27 +0,37 @@
+ <html><body>
+-<table width=260>
+-<tr>
+-<td width=40><button value="Main" action="bypass -h admin_admin" width=40 height=15 back="sek.cbui94" fore="sek.cbui92"></td>	
+-<td width=180 align=center>GMShop - Weapons</td>
+-<td width=40><button value="Back" action="bypass -h admin_link gmshops.htm" width=40 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+-</tr>
+-<tr>
+-<td width=40></td>
+-<td width=180 align=center><font color="LEVEL">A Grade</font></td>
+-<td width=40></td>
+-</tr>
++<table width=280>
++	<tr>
++		<td width=40><button value="Main" action="bypass -h admin_admin" width=40 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
++		<td width=180 align=center>GMShop - Weapons (A grade)</td>
++		<td width=40><button value="Back" action="bypass -h admin_link gmshop/Weapons.htm" width=40 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
++	</tr>
+ </table><br>
+-<center>
+-<table width=230>
+-<tr><td><a action="bypass -h admin_buy 9036"><font color="LEVEL">Single Handed Swords</font></a></td></tr>
+-<tr><td><a action="bypass -h admin_buy 9037"><font color="LEVEL">Double Handed Swords</font></a></td></tr>
+-<tr><td><a action="bypass -h admin_buy 9038"><font color="LEVEL">Dual Swords</font></a></td></tr>
+-<tr><td><a action="bypass -h admin_buy 9039"><font color="LEVEL">Daggers</font></a></td></tr>
+-<tr><td><a action="bypass -h admin_buy 9040"><font color="LEVEL">Bows</font></a></td></tr>
+-<tr><td><a action="bypass -h admin_buy 9041"><font color="LEVEL">Fists</font></a></td></tr>
+-<tr><td><a action="bypass -h admin_buy 9042"><font color="LEVEL">Polearms</font></a></td></tr>
+-<tr><td><a action="bypass -h admin_buy 9043"><font color="LEVEL">Single Handed Blunts</font></a></td></tr>
+-<tr><td><a action="bypass -h admin_buy 9044"><font color="LEVEL">Double Handed Blunts</font></a></td></tr>
+-</table>
+-</center>
+-</body></html>
++<table width=280>
++	<tr>
++		<td align=center><button action="bypass -h admin_buy 9036" value="Single Handed Swords" width=135 height=23 back="L2UI_CH3.BigButton3_Down" fore="L2UI_CH3.BigButton3"></td>
++	</tr>
++	<tr>
++		<td align=center><button action="bypass -h admin_buy 9037" value="Double Handed Swords" width=135 height=23 back="L2UI_CH3.BigButton3_Down" fore="L2UI_CH3.BigButton3"></td>
++	</tr>
++	<tr>
++		<td align=center><button action="bypass -h admin_buy 9038" value="Dual Swords" width=135 height=23 back="L2UI_CH3.BigButton3_Down" fore="L2UI_CH3.BigButton3"></td>
++	</tr>
++	<tr>
++		<td align=center><button action="bypass -h admin_buy 9039" value="Daggers" width=135 height=23 back="L2UI_CH3.BigButton3_Down" fore="L2UI_CH3.BigButton3"></td>
++	</tr>
++	<tr>
++		<td align=center><button action="bypass -h admin_buy 9040" value="Bows" width=135 height=23 back="L2UI_CH3.BigButton3_Down" fore="L2UI_CH3.BigButton3"></td>
++	</tr>
++	<tr>
++		<td align=center><button action="bypass -h admin_buy 9041" value="Fists" width=135 height=23 back="L2UI_CH3.BigButton3_Down" fore="L2UI_CH3.BigButton3"></td>
++	</tr>
++	<tr>
++		<td align=center><button action="bypass -h admin_buy 9042" value="Polearms" width=135 height=23 back="L2UI_CH3.BigButton3_Down" fore="L2UI_CH3.BigButton3"></td>
++	</tr>
++	<tr>
++		<td align=center><button action="bypass -h admin_buy 9043" value="Single Handed Blunts" width=135 height=23 back="L2UI_CH3.BigButton3_Down" fore="L2UI_CH3.BigButton3"></td>
++	</tr>
++	<tr>
++		<td align=center><button action="bypass -h admin_buy 9044" value="Double Handed Blunts" width=135 height=23 back="L2UI_CH3.BigButton3_Down" fore="L2UI_CH3.BigButton3"></td>
++	</tr>
++</table>

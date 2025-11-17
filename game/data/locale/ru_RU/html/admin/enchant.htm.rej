@@ -1,0 +1,52 @@
+@@ -14,19 +14,19 @@
+ </table><br>
+ <table width=340>
+ 	<tr>
+-		<td><button value="Маска" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+-		<td><button value="Шлем" action="bypass -h admin_seteh $menu_command" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+-		<td><button value="Плащ" action="bypass -h admin_setba $menu_command" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
++		<td><button value="Маска" action="bypass -h admin_enchant face $menu_command" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
++		<td><button value="Шлем" action="bypass -h admin_enchant head $menu_command" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
++		<td><button value="Плащ" action="bypass -h admin_enchant hair $menu_command" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+ 	</tr>
+ 	<tr>
+-		<td><button value="Оружие" action="bypass -h admin_setew $menu_command" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+-		<td><button value="Броня" action="bypass -h admin_setec $menu_command" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+-		<td><button value="Щит" action="bypass -h admin_setes $menu_command" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
++		<td><button value="Оружие" action="bypass -h admin_enchant rhand $menu_command" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
++		<td><button value="Броня" action="bypass -h admin_enchant chest $menu_command" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
++		<td><button value="Щит" action="bypass -h admin_enchant lhand $menu_command" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+ 	</tr>
+ 	<tr>
+-		<td><button value="Перчатки" action="bypass -h admin_seteg $menu_command" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+-		<td><button value="Низ" action="bypass -h admin_setel $menu_command" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+-		<td><button value="Ботинки" action="bypass -h admin_seteb $menu_command" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
++		<td><button value="Перчатки" action="bypass -h admin_enchant gloves $menu_command" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
++		<td><button value="Низ" action="bypass -h admin_enchant legs $menu_command" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
++		<td><button value="Ботинки" action="bypass -h admin_enchant feet $menu_command" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+ 	</tr>
+ </table>
+ <br>
+@@ -34,16 +34,16 @@
+ <br>
+ <table width=230>
+ 	<tr>
+-		<td align=center><button value="Белье" action="bypass -h admin_setun $menu_command" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+-		<td align=center><button value="Ожерелье" action="bypass -h admin_seten $menu_command" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
++		<td align=center><button value="Белье" action="bypass -h admin_enchant under $menu_command" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
++		<td align=center><button value="Ожерелье" action="bypass -h admin_enchant neck $menu_command" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+ 	</tr>
+ 	<tr>
+-		<td align=center><button value="Серьга" action="bypass -h admin_setre $menu_command" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+-		<td align=center><button value="Серьга" action="bypass -h admin_setle $menu_command" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
++		<td align=center><button value="Серьга" action="bypass -h admin_enchant rear $menu_command" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
++		<td align=center><button value="Серьга" action="bypass -h admin_enchant lear $menu_command" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+ 	</tr>
+ 	<tr>
+-		<td align=center><button value="Кольцо" action="bypass -h admin_setrf $menu_command" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+-		<td align=center><button value="Кольцо" action="bypass -h admin_setlf $menu_command" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
++		<td align=center><button value="Кольцо" action="bypass -h admin_enchant rfinger $menu_command" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
++		<td align=center><button value="Кольцо" action="bypass -h admin_enchant lfinger $menu_command" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+ 	</tr>
+ </table>
+ </body></html>

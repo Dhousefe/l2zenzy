@@ -1,0 +1,10 @@
+@@ -0,4 +0,5 @@
+-<html><body>Mysterious Wizard:<br>
+-The Resonance Amulet? I never thought about that! I used it to watch over the bride of a fire dragon, but it led people to me.<br>
+-I can't give you this one because I'm still using it, but I'll tell you where you can get one.<br>
+-<a action="bypass -h Quest Q074_SagaOfTheDreadnought 11-9">"Where?"</a></body></html>
++<html><body>Таинственный маг:<br>
++Амулет Резонанса? Я никогда не думал об этом! Я использовал его, чтобы следить за невестой огненного дракона, но он привёл людей ко мне.<br>
++Я не могу дать тебе этот, потому что я всё ещё им пользуюсь, но я расскажу тебе, где ты можешь получить другой.<br>
++<a action="bypass -h Quest Q074_SagaOfTheDreadnought 11-9">"Где?"</a>
++</body></html>

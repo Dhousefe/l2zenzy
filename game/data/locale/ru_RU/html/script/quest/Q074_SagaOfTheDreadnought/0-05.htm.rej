@@ -1,0 +1,12 @@
+@@ -0,5 +0,6 @@
+-<html><body>Master Aiken:<br>
+-Warlords studied the fighting techniques of dragons during the war of the gods. That's why we're rumored to be descended from dragons!<br>
+-<font color="LEVEL">Leona Blackbird</font>, also known as the <font color="LEVEL">Bride of the Fire Dragon</font>, was once captain of the guards in Giran. Before the era of chaos began she was defeated by Sighardt Ein. Now she's a wanderer.<br>
+-Her fighting technique was truly excellent. If you wish to improve yours, you should meet her.<br>
+-<a action="bypass -h Quest Q074_SagaOfTheDreadnought accept">"Where can I find her?"</a></body></html>
++<html><body>Мастер Айкен:<br>
++Варлорды изучали боевые техники драконов во время войны богов. Вот почему ходят слухи, что мы — потомки драконов!<br>
++<font color="LEVEL">Леона Блэкберд</font>, также известная как <font color="LEVEL">Невеста Огненного Дракона</font>, когда-то была капитаном стражи в Гиране. До начала эпохи хаоса она была побеждена Сигардом Эйном. Теперь она странница.<br>
++Ее боевое искусство было действительно великолепным. Если ты хочешь улучшить свое, тебе стоит встретиться с ней.<br>
++<a action="bypass -h Quest Q074_SagaOfTheDreadnought accept">"Где я могу найти ее?"</a>
++</body></html>

@@ -1,0 +1,12 @@
+@@ -0,5 +0,6 @@
+-<html><body>Tablet of Vision:<br>
+-As you near the Tablet of Vision, you sense a presence. It must be a guardian, whose only purpose is to deny Humans the ultimate knowledge!<br>
+-You fear that you must find a way to defeat this foe beyond what you already know. The past may hold the key.<br>
+-What would Leona do?<br>
+-<a action="bypass -h Quest Q074_SagaOfTheDreadnought 7-1">"I'll use my spear on them!"</a></body></html>
++<html><body>Таблица Видения:<br>
++Когда ты приближаешься к Таблице Видения, ты ощущаешь присутствие. Это должен быть страж, чья единственная цель — лишить людей высшего знания!<br>
++Ты боишься, что тебе придется найти способ победить этого врага, который выходит за пределы того, что ты уже знаешь. Прошлое может держать ключ.<br>
++Что бы сделала Леона?<br>
++<a action="bypass -h Quest Q074_SagaOfTheDreadnought 7-1">"Я использую своё копьё против них!"</a>
++</body></html>

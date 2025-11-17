@@ -1,0 +1,46 @@
+@@ -0,19 +0,28 @@
+ <html><body>
+-<table width=260>
+-<tr><td width=40><button value="Main" action="bypass -h admin_admin" width=40 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+-<td width=180 align=center>GMShop</td>
+-<td width=40><button value="Back" action="bypass -h admin_link gmshops.htm" width=40 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
+-</tr>
++<table width=280>
++	<tr>
++		<td width=40><button value="Main" action="bypass -h admin_admin" width=40 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
++		<td width=180 align=center>GMShop - Jewels</td>
++		<td width=40><button value="Back" action="bypass -h admin_link gmshops.htm" width=40 height=15 back="sek.cbui94" fore="sek.cbui92"></td>
++	</tr>
+ </table><br>
+-<center>
+-<table>
+-<tr><td width=140>Jewels:</td>
+-<tr><td><a action="bypass -h admin_buy 9108"><font color="LEVEL">No Grade</font></a></td></tr>
+-<tr><td><a action="bypass -h admin_buy 9109"><font color="LEVEL">Grade D</font></a></td></tr>
+-<tr><td><a action="bypass -h admin_buy 9110"><font color="LEVEL">Grade C</font></a></td></tr>
+-<tr><td><a action="bypass -h admin_buy 9125"><font color="LEVEL">Grade B</font></a></td></tr>
+-<tr><td><a action="bypass -h admin_buy 9126"><font color="LEVEL">Grade A</font></a></td></tr>
+-<tr><td><a action="bypass -h admin_buy 9127"><font color="LEVEL">Grade S</font></a></td></tr>
+-</table>
+-</center>
+-</body></html>
++<table width=280>
++	<tr>
++		<td align=center><button action="bypass -h admin_buy 9108" value="No Grade" width=75 height=21 back="L2UI_ch3.Btn1_normalOn" fore="L2UI_ch3.Btn1_normal"></td>
++	</tr>
++	<tr>
++		<td align=center><button action="bypass -h admin_buy 9109" value="D Grade" width=75 height=21 back="L2UI_ch3.Btn1_normalOn" fore="L2UI_ch3.Btn1_normal"></td>
++	</tr>
++	<tr>
++		<td align=center><button action="bypass -h admin_buy 9110" value="C Grade" width=75 height=21 back="L2UI_ch3.Btn1_normalOn" fore="L2UI_ch3.Btn1_normal"></td>
++	</tr>
++	<tr>
++		<td align=center><button action="bypass -h admin_buy 9125" value="B Grade" width=75 height=21 back="L2UI_ch3.Btn1_normalOn" fore="L2UI_ch3.Btn1_normal"></td>
++	</tr>
++	<tr>
++		<td align=center><button action="bypass -h admin_buy 9126" value="A Grade" width=75 height=21 back="L2UI_ch3.Btn1_normalOn" fore="L2UI_ch3.Btn1_normal"></td>
++	</tr>
++	<tr>
++		<td align=center><button action="bypass -h admin_buy 9127" value="S Grade" width=75 height=21 back="L2UI_ch3.Btn1_normalOn" fore="L2UI_ch3.Btn1_normal"></td>
++	</tr>
++</table>

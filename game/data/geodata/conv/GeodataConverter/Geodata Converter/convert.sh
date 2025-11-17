@@ -1,0 +1,1 @@
+java -cp ./lib/*:./conv.jar -f input -o output

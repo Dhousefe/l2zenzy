@@ -1,0 +1,14 @@
+@@ -0,6 +0,7 @@
+-<html><body>Leona Blackbird:<br>
+- Good job!<br>
+- Pleased to meet you. I'm Leona Blackbird. Some call me such things as the Bride of the Fire Dragon, but believe me, I never married Valakas!<br>
+-Ha! At one time I was captain of the guard in Giran. That's when the fire dragon told me about this pilgrimage, which I didn't follow at that time. I didn't expect Sighardt Ein to attack at a time like that.<br>
+- When I think back on it now, I understand. I've been expecting someone like you to come looking for me.<br>
+-<a action="bypass -h Quest Q074_SagaOfTheDreadnought 4-1">"Why is that?"</a></body></html>
++<html><body>Леона Блэкберд:<br>
++Хорошая работа!<br>
++Приятно познакомиться. Я — Леона Блэкберд. Некоторые называют меня невестой Огненного Дракона, но поверь, я никогда не была замужем за Валакасом!<br>
++Ха! Когда-то я была капитаном стражи в Гиране. Тогда огненный дракон рассказал мне о этом паломничестве, которому я не последовала в то время. Я не ожидала, что Сигхардт Эйн нападет именно в такой момент.<br>
++Теперь, когда я оглядываюсь назад, я понимаю. Я ожидала, что кто-то вроде тебя придет искать меня.<br>
++<a action="bypass -h Quest Q074_SagaOfTheDreadnought 4-1">"Почему?"</a>
++</body></html>

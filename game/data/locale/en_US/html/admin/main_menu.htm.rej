@@ -1,0 +1,18 @@
+@@ -59,12 +59,15 @@
+ 	GM actions
+ 	<table width=240>
+ 		<tr>
++			<td><button value="Ban" action="bypass -h admin_link ban.htm" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
++			<td><button value="Augment" action="bypass -h admin_test allaugment" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
++			<td><button value="Ench. Skill" action="bypass -h admin_test skill" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
++			<td><button value="Henna" action="bypass -h admin_test henna" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
++		</tr><tr>
+ 			<td><button value="List ON/OFF" action="bypass -h admin_gmlist" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+ 			<td><button value="Invul" action="bypass -h admin_invul" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+ 			<td><button value="Undying" action="bypass -h admin_undying" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+ 			<td><button value="Hide" action="bypass -h admin_hide" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+-		</tr><tr>
+-			<td><button value="Ban" action="bypass -h admin_link ban.htm" width=65 height=19 back="L2UI_ch3.smallbutton2_over" fore="L2UI_ch3.smallbutton2"></td>
+ 		</tr>
+ 	</table>
+ </center></body></html>
